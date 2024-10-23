@@ -6,10 +6,10 @@ from selenium.webdriver.chrome.service import Service
 
 load_dotenv()
 
-base_url = os.getenv('url')
-token=os.getenv('token')
-expiry_time=os.getenv('expiry_time')
-user=os.getenv('user')
+base_url = os.getenv('URL')
+token=os.getenv('TOKEN')
+expiry_time=os.getenv('EXPIRY_TIME')
+user=os.getenv('USER')
 
 driver = webdriver.Chrome(service=Service(executable_path="chromedriver.exe"))
 
