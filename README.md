@@ -1,1 +1,1 @@
-## It work on application
+## It works on application
